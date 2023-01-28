@@ -22,4 +22,8 @@ public class Vector2 {
 		return new Vector2(this.x - a.x, this.y - a.y);
 	}
 
+	public boolean same(Vector2 a) {
+		return a.x == this.x && a.y == this.y;
+	}
+
 }

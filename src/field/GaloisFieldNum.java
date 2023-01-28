@@ -1,4 +1,4 @@
-package galois_field;
+package field;
 
 public class GaloisFieldNum {
 

@@ -1,6 +1,6 @@
-import geometric.Distance2D;
+import geometric.Line2D;
 import geometric.Vector2;
-import math.Operations;
+import math.Tools;
 
 /**
  * Test
@@ -9,14 +9,13 @@ import math.Operations;
  */
 public class TestMain {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        Vector2 a = new Vector2(0, 0);
-        Vector2 b = new Vector2(3, 4);
-        System.out.println(Distance2D.pointToPointDistance(a, b));
+		Vector2 a = new Vector2(55, 450);
+		Vector2 b = new Vector2(60, 400);
+		Line2D l = new Line2D(a, b);
+		System.out.println(l.k + " " + l.b);
 
-        System.out.println(Math.pow(1.0, 2.0));
-
-    }
-    
+	}
+	
 }

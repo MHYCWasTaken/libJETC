@@ -8,7 +8,7 @@ import geometric.Vector2;
  * @date 2022/12/31 15:01
  * 
  */
-public class Operations {
+public class Operators {
 
 
 	/**
